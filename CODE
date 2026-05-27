@@ -14,11 +14,14 @@
     <!-- Header & Navigation -->
     <header class="header" id="header">
         <div class="container nav-container">
-            <a href="#" class="logo">Serenidad &amp; Recuperación</a>
+            <a href="#" class="logo"><img src="logo.png" alt="Serenidad & Recuperación" style="height:60px; vertical-align:middle;"/></a>
             <nav class="nav-links">
+                <a href="#sobre-mi">Conóceme</a>
                 <a href="#servicios">Servicios</a>
                 <a href="#recursos">Recursos</a>
-                <a href="#centros">Centros de Internamiento</a>
+                <a href="#centros">Centros</a>
+                <a href="#meditacion">Meditación</a>
+                <a href="#grupos-na">Grupos NA</a>
                 <a href="#psicoeducacion">Psicoeducación</a>
                 <a href="#contacto" class="btn-outline">Contacto</a>
             </nav>
@@ -41,6 +44,29 @@
         </div>
         <div class="hero-shape">
             <svg viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg"><path fill="#ffffff" fill-opacity="1" d="M0,256L48,229.3C96,203,192,149,288,144C384,139,480,181,576,202.7C672,224,768,224,864,208C960,192,1056,160,1152,149.3C1248,139,1344,149,1392,154.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+        </div>
+    </section>
+    <!-- Sobre Mí / Contacto Directo Section -->
+    <section class="section bg-light" id="sobre-mi">
+        <div class="container">
+            <div class="profile-card fade-in-up">
+                <div class="profile-image-placeholder">
+                    <span class="avatar-icon">👤</span>
+                </div>
+                <div class="profile-info">
+                    <h2>Hola, soy Gibrán David Céspedes Villegas</h2>
+                    <p class="subtitle">Consejero Especialista en Adicciones</p>
+                    <div class="credentials">
+                        <p>🎓 <strong>Título de Graduación:</strong> Asociación de Comunidades Terapéuticas (ASCAD)</p>
+                        <a href="titulo-ascad.pdf" target="_blank" rel="noopener noreferrer" class="btn-outline" style="margin-top: 1rem; display: inline-block; padding: 0.5rem 1.2rem; font-size: 0.9rem; border-radius: 20px;">Ver Título Original</a>
+                    </div>
+                    <p>Estoy aquí para escucharte y acompañarte en tu proceso. Dar el primer paso es el más valiente. Si necesitas ayuda, no dudes en contactarme directamente.</p>
+                    <div class="direct-contact">
+                        <span class="phone-icon">📞</span>
+                        <a href="tel:+50670924920" class="phone-number">+506 70924920</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <!-- Servicios Section -->
@@ -77,21 +103,21 @@
                 <p>No estás solo. Conéctate con comunidades de apoyo global.</p>
             </div>
             <div class="resources-grid">
-                <a href="#" class="resource-link">
+                <a href="https://narcoticosanonimoscr.org/" target="_blank" rel="noopener noreferrer" class="resource-link">
                     <div class="resource-content">
                         <h3>Narcóticos Anónimos (NA)</h3>
                         <p>Grupos de apoyo mutuo para personas en recuperación de la adicción a las drogas.</p>
                         <span class="read-more">Visitar sitio &rarr;</span>
                     </div>
                 </a>
-                <a href="#" class="resource-link">
+                <a href="https://al-anon.cr/" target="_blank" rel="noopener noreferrer" class="resource-link">
                     <div class="resource-content">
                         <h3>Al-Anon / Alateen</h3>
                         <p>Apoyo para familiares y amigos de personas con problemas de alcoholismo.</p>
                         <span class="read-more">Visitar sitio &rarr;</span>
                     </div>
                 </a>
-                <a href="#" class="resource-link">
+                <a href="https://aacostarica.org/" target="_blank" rel="noopener noreferrer" class="resource-link">
                     <div class="resource-content">
                         <h3>Alcohólicos Anónimos (AA)</h3>
                         <p>Comunidad internacional de hombres y mujeres que comparten su mutua experiencia.</p>
@@ -111,24 +137,37 @@
             <div class="centers-list">
                 <div class="center-item">
                     <div class="center-info">
-                        <h3>Centro de Recuperación "Nuevo Amanecer"</h3>
-                        <p>Especialistas en desintoxicación y terapia cognitivo-conductual con atención 24/7.</p>
+                        <h3>Eliasib Dios Restaura</h3>
+                        <p>Centro de recuperación y restauración.</p>
                         <div class="contact-info">
-                            <span>📞 (123) 456-7890</span>
-                            <span>📍 Ciudad Principal, País</span>
+                            <span>🔗 <a href="https://www.facebook.com/profile.php?id=100092292537423&locale=es_LA" target="_blank" rel="noopener noreferrer" style="color: var(--color-primary); font-weight: 600;">Ver página de Facebook</a></span>
+                            <span>📞 22677587</span>
+                            <span>📞 70181221</span>
                         </div>
                     </div>
                 </div>
-                <div class="center-item">
-                    <div class="center-info">
-                        <h3>Clínica "Oasis de Paz"</h3>
-                        <p>Enfoque holístico que combina medicina tradicional, meditación y terapias artísticas.</p>
-                        <div class="contact-info">
-                            <span>📞 (098) 765-4321</span>
-                            <span>📍 Zona Norte, País</span>
-                        </div>
-                    </div>
-                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Meditación Diaria Section -->
+    <section class="section bg-light" id="meditacion">
+        <div class="container">
+            <div class="section-title">
+                <h2>Meditación: Sólo por Hoy</h2>
+                <p>Un espacio de reflexión diaria basado en el programa de Narcóticos Anónimos.</p>
+            </div>
+            <div class="meditation-container" style="border-radius: var(--border-radius); overflow: hidden; box-shadow: var(--box-shadow); height: 600px; max-width: 900px; margin: 0 auto; background-color: white;">
+                <iframe src="https://fzla.org/sxh/" width="100%" height="100%" style="border: none;" title="Meditación Sólo por Hoy"></iframe>
+            </div>
+        </div>
+    </section>
+    <!-- Grupos de Narcóticos Anónimos en Costa Rica -->
+    <section class="section bg-light" id="grupos-na">
+        <div class="container">
+            <div class="section-title">
+                <h2>Grupos de Narcóticos Anónimos – Costa Rica</h2>
+                <p>Encuentra los grupos locales de Narcóticos Anónimos en todo el país. Haz clic en el enlace para ver la lista completa y horarios.</p>
+                <a href="https://narcoticosanonimoscr.org/nuestros-grupos/" target="_blank" rel="noopener noreferrer" class="btn-primary" style="padding:0.6rem 1.4rem; font-size:0.95rem; border-radius:20px;">Ver grupos NA</a>
             </div>
         </div>
     </section>
@@ -137,10 +176,16 @@
         <div class="container">
             <div class="podcast-content">
                 <div class="podcast-text">
-                    <span class="badge">Próximamente</span>
+                    <span class="badge">Nuevo Material</span>
                     <h2>Espacio Psicoeducativo y Podcast</h2>
-                    <p>La educación es una herramienta fundamental en la recuperación. Pronto estaremos lanzando nuestro podcast, donde profundizaremos en temas de salud mental, neurobiología de la adicción, historias de éxito y estrategias de bienestar emocional.</p>
-                    <p>Mientras tanto, suscríbete a nuestro boletín para recibir recursos gratuitos y ser el primero en saber sobre nuestro lanzamiento.</p>
+                    <p>La educación es una herramienta fundamental en la recuperación. A continuación puedes acceder a nuestro material psicoeducativo especial, y pronto estaremos lanzando nuestro podcast, donde profundizaremos en temas de salud mental, neurobiología de la adicción, historias de éxito y estrategias de bienestar emocional.</p>
+                    
+                    <div class="resource-download" style="background: rgba(255,255,255,0.1); padding: 1.5rem; border-radius: 12px; margin: 1.5rem 0; border: 1px solid rgba(255,255,255,0.2);">
+                        <h3 style="color: white; margin-bottom: 0.5rem; font-size: 1.2rem;">📄 Entendiendo Nuestro Cerebro: La Neurociencia de las Adicciones</h3>
+                        <p style="font-size: 0.95rem; margin-bottom: 1rem; color: rgba(255,255,255,0.85);">Una guía completa para comprender los mecanismos biológicos detrás de la adicción.</p>
+                        <a href="Entendiendo-Nuestro-Cerebro.pdf" target="_blank" rel="noopener noreferrer" class="btn-secondary" style="padding: 0.5rem 1.2rem; font-size: 0.95rem; border-radius: 20px;">Leer o Descargar PDF</a>
+                    </div>
+                    <p>Mientras tanto, suscríbete a nuestro boletín para recibir más recursos gratuitos y ser el primero en saber sobre nuestro lanzamiento del podcast.</p>
                     <form class="subscribe-form">
                         <input type="email" placeholder="Tu correo electrónico" required>
                         <button type="submit" class="btn-primary">Suscribirse</button>
@@ -162,8 +207,8 @@
             </div>
             <div class="footer-contact">
                 <h3>Contacto</h3>
-                <p>Email: contacto@serenidadyrecuperacion.com</p>
-                <p>Teléfono: (555) 123-4567</p>
+                <p>Email: davidcvillegas@gmail.com</p>
+                <p>Teléfono: +506 70924920</p>
                 <p>Atención presencial y en línea.</p>
             </div>
             <div class="footer-links">
